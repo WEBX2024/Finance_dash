@@ -1,0 +1,45 @@
+// ~25 realistic transactions spanning 2 months (Feb–Mar 2026)
+export const mockTransactions = [
+  // ── March 2026 ──
+  { id: 1,  date: '2026-03-28', description: 'Monthly Salary',           amount: 5200.00, category: 'Salary',         type: 'income'  },
+  { id: 2,  date: '2026-03-27', description: 'Whole Foods Groceries',    amount:  142.35, category: 'Groceries',      type: 'expense' },
+  { id: 3,  date: '2026-03-25', description: 'Apartment Rent',           amount: 1800.00, category: 'Rent',           type: 'expense' },
+  { id: 4,  date: '2026-03-24', description: 'Netflix Subscription',     amount:   15.99, category: 'Entertainment',  type: 'expense' },
+  { id: 5,  date: '2026-03-22', description: 'Freelance Web Project',    amount:  850.00, category: 'Freelance',      type: 'income'  },
+  { id: 6,  date: '2026-03-20', description: 'Electric Bill',            amount:   78.50, category: 'Utilities',      type: 'expense' },
+  { id: 7,  date: '2026-03-18', description: 'Uber Rides',               amount:   34.20, category: 'Transportation', type: 'expense' },
+  { id: 8,  date: '2026-03-16', description: 'Dinner at Olive Garden',   amount:   62.40, category: 'Dining',         type: 'expense' },
+  { id: 9,  date: '2026-03-14', description: 'Amazon — Headphones',      amount:   89.99, category: 'Shopping',       type: 'expense' },
+  { id: 10, date: '2026-03-12', description: 'Pharmacy — Prescription',  amount:   25.00, category: 'Healthcare',     type: 'expense' },
+  { id: 11, date: '2026-03-10', description: 'Gas Station Fill-up',      amount:   48.75, category: 'Transportation', type: 'expense' },
+  { id: 12, date: '2026-03-08', description: 'Starbucks Coffee',         amount:    6.50, category: 'Dining',         type: 'expense' },
+  { id: 13, date: '2026-03-05', description: 'Freelance Logo Design',    amount:  400.00, category: 'Freelance',      type: 'income'  },
+
+  // ── February 2026 ──
+  { id: 14, date: '2026-02-28', description: 'Monthly Salary',           amount: 5200.00, category: 'Salary',         type: 'income'  },
+  { id: 15, date: '2026-02-26', description: 'Trader Joe\'s Groceries',  amount:  118.90, category: 'Groceries',      type: 'expense' },
+  { id: 16, date: '2026-02-25', description: 'Apartment Rent',           amount: 1800.00, category: 'Rent',           type: 'expense' },
+  { id: 17, date: '2026-02-23', description: 'Spotify Premium',          amount:    9.99, category: 'Entertainment',  type: 'expense' },
+  { id: 18, date: '2026-02-21', description: 'Internet Bill',            amount:   65.00, category: 'Utilities',      type: 'expense' },
+  { id: 19, date: '2026-02-19', description: 'Lyft Ride',                amount:   22.50, category: 'Transportation', type: 'expense' },
+  { id: 20, date: '2026-02-17', description: 'Sushi Night Out',          amount:   45.80, category: 'Dining',         type: 'expense' },
+  { id: 21, date: '2026-02-15', description: 'Nike Running Shoes',       amount:  129.99, category: 'Shopping',       type: 'expense' },
+  { id: 22, date: '2026-02-13', description: 'Dentist Checkup',          amount:   85.00, category: 'Healthcare',     type: 'expense' },
+  { id: 23, date: '2026-02-10', description: 'Freelance Article Writing',amount:  300.00, category: 'Freelance',      type: 'income'  },
+  { id: 24, date: '2026-02-07', description: 'Costco Bulk Groceries',    amount:  210.45, category: 'Groceries',      type: 'expense' },
+  { id: 25, date: '2026-02-04', description: 'Movie Tickets',            amount:   28.00, category: 'Entertainment',  type: 'expense' },
+];
+
+// All unique categories for dropdowns / filters
+export const CATEGORIES = [
+  'Salary',
+  'Freelance',
+  'Groceries',
+  'Rent',
+  'Utilities',
+  'Entertainment',
+  'Transportation',
+  'Dining',
+  'Shopping',
+  'Healthcare',
+];
