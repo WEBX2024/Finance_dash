@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/layout/Header'
 import Sidebar from './components/layout/Sidebar'
 import Dashboard from './pages/Dashboard'
+import Transactions from './pages/Transactions'
 import { useAppContext } from './context/useAppContext'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
         <main className="flex-1 p-4 sm:p-6 lg:p-8">
           {currentPage === 'dashboard' && <Dashboard />}
-          {currentPage === 'transactions' && <Placeholder title="Transactions" />}
+          {currentPage === 'transactions' && <Transactions />}
           {currentPage === 'insights' && <Placeholder title="Insights" />}
         </main>
       </div>
