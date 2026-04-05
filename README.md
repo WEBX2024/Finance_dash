@@ -95,8 +95,8 @@ Fin_dash/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/Fin_dash.git
-cd Fin_dash
+git clone https://github.com/WEBX2024/Finance_dash.git
+cd Finance_dash
 
 # Install dependencies
 npm install
